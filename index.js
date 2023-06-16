@@ -8,6 +8,6 @@ console.log("PORT:", PORT);
 console.log("NODE_ENV:", NODE_ENV);
 
 
-server.listen(port, () => {
+server.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 })
